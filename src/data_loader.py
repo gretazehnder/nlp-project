@@ -68,6 +68,56 @@ def load_articles(csv_path: str) -> list[LoadedArticle]:
     return articles
 
 
+def filter_research_articles(
+    articles: list[LoadedArticle],
+    exclude_prefixes: tuple[str, ...] = ("Correction to",),
+) -> list[LoadedArticle]:
+    """Removes articles that are not real research abstracts (e.g. correction notices) --> found by inspecting the lowest-scoring articles in pipeline.py's first run"""
+    filtered = [
+        a for a in articles
+        if not any(a.title.strip().startswith(prefix) for prefix in exclude_prefixes)
+    ]
+
+    removed = len(articles) - len(filtered)
+    if removed:
+        print(f"Filtered out {removed} non-research notices (e.g. corrections)")
+
+    return filtered
+
+
+def remove_duplicate_titles(articles: list[LoadedArticle]) -> list[LoadedArticle]:
+    """Removes articles with a duplicate title, keeping the first occurrence --> found during EDA"""
+    seen_titles = set()
+    deduplicated = []
+    for article in articles:
+        key = article.title.strip().lower()  # lowercase + strip so near-identical casing/spacing still counts as duplicate
+        if key in seen_titles:
+            continue
+        seen_titles.add(key)
+        deduplicated.append(article)
+
+    removed = len(articles) - len(deduplicated)
+    if removed:
+        print(f"Removed {removed} duplicate article(s)")
+
+    return deduplicated
+
+
+def filter_by_year_range(
+    articles: list[LoadedArticle],
+    min_year: int,
+    max_year: int,
+) -> list[LoadedArticle]:
+    """Keeps only articles published within [min_year, max_year] --> used to exclude 2026, an incomplete year (only 39 articles vs ~90-115 for full years, found during EDA)"""
+    filtered = [a for a in articles if min_year <= a.year <= max_year]
+
+    removed = len(articles) - len(filtered)
+    if removed:
+        print(f"Removed {removed} article(s) outside the {min_year}-{max_year} range")
+
+    return filtered
+
+
 def load_aims_scope(txt_path: str) -> str:
     """Reads the Aims & Scope text file and returns it as a single string."""
     path = Path(txt_path)
