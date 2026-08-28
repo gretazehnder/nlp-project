@@ -31,7 +31,7 @@ def compute_alignment_scores(
     return similarities.flatten()
 
 
-def detect_outliers(scores: np.ndarray, z_threshold: float = 2.0) -> np.ndarray: # maybe try 3.0 once we have real scores, to compare how many outliers each threshold gives on the real dataset
+def detect_outliers(scores: np.ndarray, z_threshold: float = 2.0) -> np.ndarray: # checked 3.0 too on real data --> too few outliers to inspect qualitatively --> kept 2.0
     """Flags scores that are unusually far from the average.
 
     Uses the z-score method: how many standard deviations a value is from the mean. 
@@ -46,7 +46,7 @@ def detect_outliers(scores: np.ndarray, z_threshold: float = 2.0) -> np.ndarray:
         # all scores are identical --> nothing can be an outlier
         return np.zeros(len(scores), dtype=bool)
 
-    z_scores = (scores - mean) / std # NB: NOT SUITABLE FOR SKEWED DISTRIBUTIONS, to be checked on real results
+    z_scores = (scores - mean) / std #NB: assumes not too skewed data --> checked on real scores in pipeline.py (skewness -0.13, close to 0 --> acceptable)
     return np.abs(z_scores) > z_threshold
 
 
@@ -77,15 +77,15 @@ def summarize_scores(scores: np.ndarray) -> dict:
     }
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     # Quick manual check with made-up numbers, not real embeddings (to confirm the math behaves as expected)
-    fake_scores = np.array([0.5, 0.52, 0.48, 0.51, 0.02, 0.49, 0.90])
+#    fake_scores = np.array([0.5, 0.52, 0.48, 0.51, 0.02, 0.49, 0.90])
 
-    print("Summary:", summarize_scores(fake_scores))
+#    print("Summary:", summarize_scores(fake_scores))
 
-    outliers = detect_outliers(fake_scores, z_threshold=1.5)
-    print("Outlier flags:", outliers)
-    print("Outlier scores:", fake_scores[outliers])
+#    outliers = detect_outliers(fake_scores, z_threshold=1.5)
+#    print("Outlier flags:", outliers)
+#    print("Outlier scores:", fake_scores[outliers])
 
 # RESULT:
 # Summary: {'count': 7, 'mean': 0.4885714285714285, 'median': 0.5, 'std': 0.2361856758344751, 'min': 0.02, 'max': 0.9}
