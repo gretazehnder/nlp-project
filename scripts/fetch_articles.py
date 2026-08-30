@@ -102,10 +102,11 @@ def _parse_article(node: ET.Element) -> Article:
 
 
 def _text(element) -> str:
-    """Cleans up extracted text (double spaces, line breaks, etc.)."""
+    """Extracts text from an XML element, discarding tags (itertext()).
+    """
     if element is None:
         return ""
-    return re.sub(r"\s+", " ", "".join(element.itertext())).strip()
+    return "".join(element.itertext()).strip()
 
 
 def save_to_csv(articles: list[Article], output_path: str) -> None:

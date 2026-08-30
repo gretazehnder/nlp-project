@@ -145,7 +145,10 @@ def _check_columns(fieldnames) -> None:
 
 def _row_to_article(row: dict) -> LoadedArticle | None:
     """Converts one CSV row into a LoadedArticle, or None if invalid."""
-    title = (row.get("title") or "").strip()  # row.get returns None if the column is missing entirely, "or ''" turns it into an empty string so .strip() works
+
+    # row.get returns None if the column is missing entirely, "or ''" turns it into an empty string so .strip() works 
+    # strip() here is just for the emptiness check below, not text cleaning (that's preprocessing.py's job)
+    title = (row.get("title") or "").strip()  
     abstract = (row.get("abstract") or "").strip()
     year_raw = (row.get("year") or "").strip()
 
