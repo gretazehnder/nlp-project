@@ -22,6 +22,7 @@ class EmbeddingModel:
         self.model_name = model_name
         self._model = SentenceTransformer(model_name)  # important for performance
         self._max_tokens = self._model.max_seq_length  # the model's own token limit (256 for MiniLM)
+        self.last_chunk_counts: list[int] = []  # how many chunks each text needed, set by encode()
 
     def encode(self, texts: list[str]) -> np.ndarray:
         """Turns a list of texts into a matrix of embeddings.
@@ -44,6 +45,9 @@ class EmbeddingModel:
                 all_chunks.append(chunk)
                 chunk_owner.append(i)
                 chunk_weights.append(len(self._model.tokenizer.encode(chunk)))
+
+        # record how many chunks each text produced --> used by scripts/report_chunk_counts.py
+        self.last_chunk_counts = [chunk_owner.count(i) for i in range(len(texts))]
 
         chunk_embeddings = self._model.encode(all_chunks, show_progress_bar=True)  # progress bar useful for large batches 
 
