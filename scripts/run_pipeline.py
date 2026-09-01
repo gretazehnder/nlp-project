@@ -1,7 +1,6 @@
-"""Lets you run the full analysis from the terminal with custom parameters,
-without editing pipeline.py's hardcoded values each time.
+"""Command-line interface for running the main alignment pipeline
+with custom parameters without modifying pipeline.py.
 """
-
 from __future__ import annotations
 
 import argparse
@@ -46,11 +45,4 @@ if __name__ == "__main__":
     main()
 
 # EXAMPLE USAGE: 
-# python3 scripts/run_pipeline.py --z-threshold 2.5 --min-year 2018
-# RESULT: 
-# Filtered out 16 non-research notices (e.g. corrections)
-# Removed 320 article(s) outside the 2018-2025 range
-# ...
-# --- Summary ---
-# {'count': 793, 'mean': 0.45950531348483087, 'median': 0.46408017932586487, 'std': 0.09973343282398943, 'min': 0.09408411932035785, 'max': 0.7414570998312979}
-# Outliers found (z-score): 3 out of 793
+# python3 scripts/run_pipeline.py --z-threshold 3.0 --min-year 2018
