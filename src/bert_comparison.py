@@ -19,9 +19,8 @@ SAMPLE_SIZE = 250
 class NaiveBertEncoder:
     """Encodes text with raw BERT + naive mean-pooling over token vectors.
 
-    This is deliberately the "wrong" approach that Sentence-BERT was
-    designed to fix --> used here only for comparison, not as a real
-    alternative to model_interface.py's EmbeddingModel.
+    Used as a simple baseline for comparison with the Sentence-BERT approach
+adopted in the main analysis.
     """
 
     def __init__(self, model_name: str = BERT_MODEL_NAME) -> None:
@@ -32,7 +31,7 @@ class NaiveBertEncoder:
     def encode(self, texts: list[str]) -> np.ndarray:
         """Encodes a list of texts with mean-pooling over BERT's token
         outputs. Long texts are truncated at BERT's own limit (512
-        tokens) - no chunking here, since the point is to reproduce the
+        tokens) --> no chunking here, since the point is to reproduce the
         naive approach as-is, not to fix its limitations.
         """
         embeddings = []
@@ -49,8 +48,7 @@ class NaiveBertEncoder:
                 outputs = self.model(**inputs)
 
                 # outputs.last_hidden_state has shape (1, n_tokens, 768) 
-                # naive mean-pooling: just average over all token vectors including special tokens ([CLS], [SEP]) and padding
-                # --> This is exactly the naive approach SBERT was built to improve on.
+                # naive mean-pooling over all returned token vectors, including special tokens ([CLS] and [SEP])
                 token_vectors = outputs.last_hidden_state[0]
                 mean_vector = token_vectors.mean(dim=0).numpy()
                 embeddings.append(mean_vector)
