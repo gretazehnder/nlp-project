@@ -1,0 +1,50 @@
+pmid,year,score,topic,topic_keywords,title
+39661234,2025,0.09408412120851563,4,"model, learning, machine, pharmacovigilance, performance",Performance and Reproducibility of Large Language Models in Named Entity Recognition: Considerations for the Use in Controlled Environments.
+28744844,2017,0.12353122433876046,2,"vaccine, covid19, vaccines, vaccination, dose",Suspected Adverse Effects After Human Papillomavirus Vaccination: A Temporal Relationship Between Vaccine Administration and the Appearance of Symptoms in Japan.
+40088342,2025,0.15799508681359328,4,"model, learning, machine, pharmacovigilance, performance",Narrative Search Engine for Case Series Assessment Supported by Artificial Intelligence Query Suggestions.
+37043168,2023,0.21027820790199833,1,"pregnancy, exposure, women, pregnancies, outcomes",Validation of an ICD-9-Based Algorithm to Identify Stillbirth Episodes from Medicaid Claims Data.
+27995519,2017,0.21731185683220877,6,"liver, dili, injury, cases, druginduced",Hepatic Cyst Infection During Use of the Somatostatin Analog Lanreotide in Autosomal Dominant Polycystic Kidney Disease: An Interim Analysis of the Randomized Open-Label Multicenter DIPAK-1 Study.
+28321782,2017,0.2177688982989482,-1,(noise),Targeting Interleukin-5 or Interleukin-5Rα: Safety Considerations.
+32399868,2020,0.22158671319530765,-1,(noise),Pathophysiology of Drug-Induced Hypomagnesaemia.
+29560597,2018,0.22223380242056345,2,"vaccine, covid19, vaccines, vaccination, dose",Central Demyelinating Diseases after Vaccination Against Hepatitis B Virus: A Disproportionality Analysis within the VAERS Database.
+26968541,2016,0.2246686229209371,12,"qt, qtc, prolongation, tdp, interval",Universal Correction for QT/RR Hysteresis.
+31111340,2019,0.22516222659208446,-1,(noise),Evaluation of Use of Technologies to Facilitate Medical Chart Review.
+30649748,2019,0.22563907337810862,0,"patients, treatment, events, inhibitors, adverse",Safety and Tolerability of c-MET Inhibitors in Cancer.
+26658991,2016,0.2256906882466215,-1,(noise),Risk of Inflammatory Bowel Disease with Oral Contraceptives and Menopausal Hormone Therapy: Current Evidence and Future Directions.
+25820287,2015,0.23323791793708096,0,"patients, treatment, events, inhibitors, adverse",Organ-on-a-chip: development and clinical prospects toward toxicity assessment with an emphasis on bone marrow.
+32242310,2020,0.23375448154393447,21,"iron, asthma, copd, ferric, carboxymaltose","Safety of Eosinophil-Depleting Therapy for Severe, Eosinophilic Asthma: Focus on Benralizumab."
+25832756,2015,0.23399531406099408,0,"patients, treatment, events, inhibitors, adverse","Chimeric fusion proteins used for therapy: indications, mechanisms, and safety."
+40223041,2025,0.23624288461896728,5,"signal, detection, signals, drug, method",Interplay of Spontaneous Reporting and Longitudinal Healthcare Databases for Signal Management: Position Statement from the Real-World Evidence and Big Data Special Interest Group of the International Society of Pharmacovigilance.
+29230691,2018,0.23649264002481934,1,"pregnancy, exposure, women, pregnancies, outcomes",Beta-Blocker Use in Pregnancy and Risk of Specific Congenital Anomalies: A European Case-Malformed Control Study.
+37328600,2023,0.24019421335061078,2,"vaccine, covid19, vaccines, vaccination, dose",Serially Combining Epidemiological Designs Does Not Improve Overall Signal Detection in Vaccine Safety Surveillance.
+26251259,2015,0.24171802866233144,2,"vaccine, covid19, vaccines, vaccination, dose","Modelling Hospitalisation Ratios for Febrile Convulsions and Severe Varicella Under Combined Measles, Mumps, Rubella, and Varicella (MMRV-Priorix-Tetra™) Compared to Separate MMR + V Vaccination."
+25475539,2015,0.24465859890154454,2,"vaccine, covid19, vaccines, vaccination, dose","Bacillus Calmette-Guérin (BCG) vaccine adverse events in Victoria, Australia: analysis of reports to an enhanced passive surveillance system."
+40745250,2025,0.24616006199245505,2,"vaccine, covid19, vaccines, vaccination, dose",Epidemiology of Thrombotic Thrombocytopenia Syndrome 2011 to 2022: English Sentinel Network Cohort Studies.
+32297160,2020,0.2463710072155702,-1,(noise),Erice Call for Change: Utilising Patient Experiences to Enhance the Quality and Safety of Healthcare.
+35579806,2022,0.24637219224294316,4,"model, learning, machine, pharmacovigilance, performance","Artificial Intelligence in Pharmacovigilance: An Introduction to Terms, Concepts, Applications, and Limitations."
+38492173,2024,0.24733287362170922,0,"patients, treatment, events, inhibitors, adverse",The Role of Mitochondria in Statin-Induced Myopathy.
+28074424,2017,0.24794072920473376,2,"vaccine, covid19, vaccines, vaccination, dose",Signal Detection Based on Time to Onset Algorithm in Spontaneous Reporting System of China.
+40238055,2025,0.2519300505644783,2,"vaccine, covid19, vaccines, vaccination, dose",Signal Monitoring for Adverse Events Following Immunisation with COVID-19 Vaccines During the SARS-CoV-2 Pandemic: An Evaluation of the South African Surveillance System.
+27995520,2017,0.25276128177948565,-1,(noise),Effect of Medications for Gastric Acid-Related Symptoms on Total Motile Sperm Count and Concentration: A Case-Control Study in Men of Subfertile Couples from the Netherlands.
+27988883,2017,0.25329206702562174,1,"pregnancy, exposure, women, pregnancies, outcomes","Surveillance of Adverse Events After Seasonal Influenza Vaccination in Pregnant Women and Their Infants in the Vaccine Adverse Event Reporting System, July 2010-May 2016."
+37340238,2023,0.6696671890333618,-1,(noise),Use of Electronic Health Record Data for Drug Safety Signal Identification: A Scoping Review.
+33837924,2021,0.6732472235451861,3,"95, ci, risk, use, antidepressants",The Use of Subgroup Disproportionality Analyses to Explore the Sensitivity of a Global Database of Individual Case Safety Reports to Known Pharmacogenomic Risk Variants Common in Japan.
+26940903,2016,0.6793036768247116,-1,(noise),Medication Errors: New EU Good Practice Guide on Risk Minimisation and Error Prevention.
+29520645,2018,0.6821084293764784,8,"pharmacovigilance, pv, activities, countries, patient",EudraVigilance Medicines Safety Database: Publicly Accessible Data for Research and Public Health Protection.
+31302895,2019,0.6851113859799578,17,"safety, boxed, fda, information, pils",Multimodal Analysis of FDA Drug Safety Communications: Lessons from Zolpidem.
+28766108,2017,0.6858039764416964,-1,(noise),A Pharmacoepidemiology Database System for Monitoring Risk Due to the Use of Medicines by New Zealand Primary Care Patients.
+28005253,2017,0.6864466152672521,-1,(noise),Diverging Conclusions from the Same Meta-Analysis in Drug Safety: Source of Data (Primary Versus Secondary) Takes a Toll.
+30725337,2019,0.6869173734069642,14,"adr, adrs, reporting, drug, reports",Use of a Patient-Friendly Terms List in the Adverse Drug Reaction Report Form: A Database Study.
+33606201,2021,0.6918676439477722,8,"pharmacovigilance, pv, activities, countries, patient",Assessing the Impact on Health of Pharmacovigilance Activities: Example of Four Safety Signals.
+27098248,2016,0.6928648059272475,8,"pharmacovigilance, pv, activities, countries, patient",The Patient's Voice in Pharmacovigilance: Pragmatic Approaches to Building a Patient-Centric Drug Safety Organization.
+37902937,2023,0.6933095224199872,-1,(noise),Long-Term Real-World Post-approval Safety Data of Multiple Biosimilars from One Marketing-Authorization Holder After More than 18 Years Since Their First Biosimilar Launch.
+28735357,2017,0.6952403365038602,8,"pharmacovigilance, pv, activities, countries, patient",Promoting and Protecting Public Health: How the European Union Pharmacovigilance System Works.
+38713346,2024,0.6969926315929695,16,"disproportionality, analyses, subgroup, causal, citing",The Reporting of a Disproportionality Analysis for Drug Safety Signal Detection Using Individual Case Safety Reports in PharmacoVigilance (READUS-PV): Development and Statement.
+25829215,2015,0.7038610044163259,8,"pharmacovigilance, pv, activities, countries, patient",The monitoring medicines project: a multinational pharmacovigilance and public health project.
+28815462,2017,0.7050437936362486,8,"pharmacovigilance, pv, activities, countries, patient",A New Erice Report Considering the Safety of Medicines in the 21st Century.
+28653291,2017,0.7055409232369811,-1,(noise),Patients' Perspectives on Adverse Drug Reaction Reporting in a Developing Country: A Case Study from Ghana.
+35113347,2022,0.7065061541792124,-1,(noise),Sources of Evidence Triggering and Supporting Safety-Related Labeling Changes: A 10-Year Longitudinal Assessment of 22 New Molecular Entities Approved in 2008 by the US Food and Drug Administration.
+26692393,2016,0.7120013165802356,8,"pharmacovigilance, pv, activities, countries, patient",Pharmacovigilance is... Vigilance.
+38713347,2024,0.715871989534635,16,"disproportionality, analyses, subgroup, causal, citing",The REporting of A Disproportionality Analysis for DrUg Safety Signal Detection Using Individual Case Safety Reports in PharmacoVigilance (READUS-PV): Explanation and Elaboration.
+28299611,2017,0.727002885501002,-1,(noise),Summarising the Evidence for Drug Safety: A Methodological Discussion of Different Meta-Analysis Approaches.
+40075033,2025,0.7414570998312979,8,"pharmacovigilance, pv, activities, countries, patient","Navigating Diverging Perspectives: Reasoning, Evidence, and Decision-Making in Drug Safety."
