@@ -89,5 +89,3 @@ def test_summarize_scores_returns_expected_keys():
     assert np.isclose(summary["mean"], 0.2)
     assert summary["min"] == 0.1
     assert summary["max"] == 0.3
-
-# RESULT:  7 tests out of 7 passed
