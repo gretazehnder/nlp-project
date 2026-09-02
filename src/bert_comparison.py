@@ -19,8 +19,7 @@ SAMPLE_SIZE = 250
 class NaiveBertEncoder:
     """Encodes text with raw BERT + naive mean-pooling over token vectors.
 
-    Used as a simple baseline for comparison with the Sentence-BERT approach
-adopted in the main analysis.
+    Used as a simple baseline for comparison with the Sentence-BERT approach adopted in the main analysis.
     """
 
     def __init__(self, model_name: str = BERT_MODEL_NAME) -> None:

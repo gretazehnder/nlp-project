@@ -46,7 +46,7 @@ def detect_outliers(scores: np.ndarray, z_threshold: float = 2.0) -> np.ndarray:
         # all scores are identical --> nothing can be an outlier
         return np.zeros(len(scores), dtype=bool)
 
-    z_scores = (scores - mean) / std #NB: assumes not too skewed data --> checked on real scores in pipeline.py (skewness -0.13, close to 0 --> acceptable)
+    z_scores = (scores - mean) / std #NB: interpretation assumes not too skewed data --> checked on real scores in pipeline.py (skewness -0.13, close to 0 --> acceptable)
     return np.abs(z_scores) > z_threshold
 
 

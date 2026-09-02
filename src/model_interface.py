@@ -46,7 +46,7 @@ class EmbeddingModel:
                 chunk_owner.append(i)
                 chunk_weights.append(len(self._model.tokenizer.encode(chunk)))
 
-        # record how many chunks each text produced --> used by scripts/report_chunk_counts.py
+        # record how many chunks each text produced --> exported by pipeline.py in chunk_count_report.csv
         self.last_chunk_counts = [chunk_owner.count(i) for i in range(len(texts))]
 
         chunk_embeddings = self._model.encode(all_chunks, show_progress_bar=True)  # progress bar useful for large batches 

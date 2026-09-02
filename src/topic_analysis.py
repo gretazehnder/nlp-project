@@ -148,9 +148,7 @@ def save_outlier_topic_assignments(
     """Cross-references the z-score outlier list with topic assignment,
     to check how much of the outlier set is actually explained by the
     two systematically low-scoring topics (2 and 4) versus scattered
-    elsewhere (we never individually read all
-    47-49 z-score outliers, only 3 examples plus the topic-level
-    aggregates).
+    elsewhere.
     """
     import pandas as pd
 
@@ -185,8 +183,9 @@ def plot_all_topics_heatmap(output_dir: Path) -> None:
     """Heatmap of every topic's article frequency across years, to check
     whether topics OTHER than Topic 4 also show meaningful temporal
     change.
+    
     Reads topic_over_time.csv and topic_summary.csv, both already saved
-    by earlier steps - no BERTopic recomputation needed.
+    by earlier steps --> no BERTopic recomputation needed.
 
     The noise topic (-1) is excluded, and each row is
     min-max normalized independently, so a small topic's own temporal
