@@ -1,50 +1,50 @@
-score,year,pmid,title,outlier_zscore,outlier_iqr
-0.2462,2025,40745250,Epidemiology of Thrombotic Thrombocytopenia Syndrome 2011 to 2022: English Sentinel Network Cohort Studies.,True,False
-0.2519,2025,40238055,Signal Monitoring for Adverse Events Following Immunisation with COVID-19 Vaccines During the SARS-CoV-2 Pandemic: An Evaluation of the South African Surveillance System.,True,False
-0.2362,2025,40223041,Interplay of Spontaneous Reporting and Longitudinal Healthcare Databases for Signal Management: Position Statement from the Real-World Evidence and Big Data Special Interest Group of the International Society of Pharmacovigilance.,True,False
-0.1580,2025,40088342,Narrative Search Engine for Case Series Assessment Supported by Artificial Intelligence Query Suggestions.,True,True
-0.7415,2025,40075033,"Navigating Diverging Perspectives: Reasoning, Evidence, and Decision-Making in Drug Safety.",True,False
-0.0941,2025,39661234,Performance and Reproducibility of Large Language Models in Named Entity Recognition: Considerations for the Use in Controlled Environments.,True,True
-0.7159,2024,38713347,The REporting of A Disproportionality Analysis for DrUg Safety Signal Detection Using Individual Case Safety Reports in PharmacoVigilance (READUS-PV): Explanation and Elaboration.,True,False
-0.6970,2024,38713346,The Reporting of a Disproportionality Analysis for Drug Safety Signal Detection Using Individual Case Safety Reports in PharmacoVigilance (READUS-PV): Development and Statement.,True,False
-0.2473,2024,38492173,The Role of Mitochondria in Statin-Induced Myopathy.,True,False
-0.6933,2023,37902937,Long-Term Real-World Post-approval Safety Data of Multiple Biosimilars from One Marketing-Authorization Holder After More than 18 Years Since Their First Biosimilar Launch.,True,False
-0.6697,2023,37340238,Use of Electronic Health Record Data for Drug Safety Signal Identification: A Scoping Review.,True,False
-0.2402,2023,37328600,Serially Combining Epidemiological Designs Does Not Improve Overall Signal Detection in Vaccine Safety Surveillance.,True,False
-0.2103,2023,37043168,Validation of an ICD-9-Based Algorithm to Identify Stillbirth Episodes from Medicaid Claims Data.,True,False
-0.2464,2022,35579806,"Artificial Intelligence in Pharmacovigilance: An Introduction to Terms, Concepts, Applications, and Limitations.",True,False
-0.7065,2022,35113347,Sources of Evidence Triggering and Supporting Safety-Related Labeling Changes: A 10-Year Longitudinal Assessment of 22 New Molecular Entities Approved in 2008 by the US Food and Drug Administration.,True,False
-0.6732,2021,33837924,The Use of Subgroup Disproportionality Analyses to Explore the Sensitivity of a Global Database of Individual Case Safety Reports to Known Pharmacogenomic Risk Variants Common in Japan.,True,False
-0.6919,2021,33606201,Assessing the Impact on Health of Pharmacovigilance Activities: Example of Four Safety Signals.,True,False
-0.2216,2020,32399868,Pathophysiology of Drug-Induced Hypomagnesaemia.,True,False
-0.2464,2020,32297160,Erice Call for Change: Utilising Patient Experiences to Enhance the Quality and Safety of Healthcare.,True,False
-0.2338,2020,32242310,"Safety of Eosinophil-Depleting Therapy for Severe, Eosinophilic Asthma: Focus on Benralizumab.",True,False
-0.6851,2019,31302895,Multimodal Analysis of FDA Drug Safety Communications: Lessons from Zolpidem.,True,False
-0.2252,2019,31111340,Evaluation of Use of Technologies to Facilitate Medical Chart Review.,True,False
-0.6869,2019,30725337,Use of a Patient-Friendly Terms List in the Adverse Drug Reaction Report Form: A Database Study.,True,False
-0.2256,2019,30649748,Safety and Tolerability of c-MET Inhibitors in Cancer.,True,False
-0.2222,2018,29560597,Central Demyelinating Diseases after Vaccination Against Hepatitis B Virus: A Disproportionality Analysis within the VAERS Database.,True,False
-0.6821,2018,29520645,EudraVigilance Medicines Safety Database: Publicly Accessible Data for Research and Public Health Protection.,True,False
-0.2365,2018,29230691,Beta-Blocker Use in Pregnancy and Risk of Specific Congenital Anomalies: A European Case-Malformed Control Study.,True,False
-0.7050,2017,28815462,A New Erice Report Considering the Safety of Medicines in the 21st Century.,True,False
-0.6858,2017,28766108,A Pharmacoepidemiology Database System for Monitoring Risk Due to the Use of Medicines by New Zealand Primary Care Patients.,True,False
-0.1235,2017,28744844,Suspected Adverse Effects After Human Papillomavirus Vaccination: A Temporal Relationship Between Vaccine Administration and the Appearance of Symptoms in Japan.,True,True
-0.6952,2017,28735357,Promoting and Protecting Public Health: How the European Union Pharmacovigilance System Works.,True,False
-0.7055,2017,28653291,Patients' Perspectives on Adverse Drug Reaction Reporting in a Developing Country: A Case Study from Ghana.,True,False
-0.2178,2017,28321782,Targeting Interleukin-5 or Interleukin-5Rα: Safety Considerations.,True,False
-0.7270,2017,28299611,Summarising the Evidence for Drug Safety: A Methodological Discussion of Different Meta-Analysis Approaches.,True,False
-0.2479,2017,28074424,Signal Detection Based on Time to Onset Algorithm in Spontaneous Reporting System of China.,True,False
-0.6864,2017,28005253,Diverging Conclusions from the Same Meta-Analysis in Drug Safety: Source of Data (Primary Versus Secondary) Takes a Toll.,True,False
-0.2528,2017,27995520,Effect of Medications for Gastric Acid-Related Symptoms on Total Motile Sperm Count and Concentration: A Case-Control Study in Men of Subfertile Couples from the Netherlands.,True,False
-0.2173,2017,27995519,Hepatic Cyst Infection During Use of the Somatostatin Analog Lanreotide in Autosomal Dominant Polycystic Kidney Disease: An Interim Analysis of the Randomized Open-Label Multicenter DIPAK-1 Study.,True,False
-0.2533,2017,27988883,"Surveillance of Adverse Events After Seasonal Influenza Vaccination in Pregnant Women and Their Infants in the Vaccine Adverse Event Reporting System, July 2010-May 2016.",True,False
-0.6929,2016,27098248,The Patient's Voice in Pharmacovigilance: Pragmatic Approaches to Building a Patient-Centric Drug Safety Organization.,True,False
-0.2247,2016,26968541,Universal Correction for QT/RR Hysteresis.,True,False
-0.6793,2016,26940903,Medication Errors: New EU Good Practice Guide on Risk Minimisation and Error Prevention.,True,False
-0.7120,2016,26692393,Pharmacovigilance is... Vigilance.,True,False
-0.2257,2016,26658991,Risk of Inflammatory Bowel Disease with Oral Contraceptives and Menopausal Hormone Therapy: Current Evidence and Future Directions.,True,False
-0.2417,2015,26251259,"Modelling Hospitalisation Ratios for Febrile Convulsions and Severe Varicella Under Combined Measles, Mumps, Rubella, and Varicella (MMRV-Priorix-Tetra™) Compared to Separate MMR + V Vaccination.",True,False
-0.2340,2015,25832756,"Chimeric fusion proteins used for therapy: indications, mechanisms, and safety.",True,False
-0.7039,2015,25829215,The monitoring medicines project: a multinational pharmacovigilance and public health project.,True,False
-0.2332,2015,25820287,Organ-on-a-chip: development and clinical prospects toward toxicity assessment with an emphasis on bone marrow.,True,False
-0.2447,2015,25475539,"Bacillus Calmette-Guérin (BCG) vaccine adverse events in Victoria, Australia: analysis of reports to an enhanced passive surveillance system.",True,False
+score,year,pmid,title,outlier_zscore,outlier_iqr,direction
+0.2462,2025,40745250,Epidemiology of Thrombotic Thrombocytopenia Syndrome 2011 to 2022: English Sentinel Network Cohort Studies.,True,False,low
+0.2519,2025,40238055,Signal Monitoring for Adverse Events Following Immunisation with COVID-19 Vaccines During the SARS-CoV-2 Pandemic: An Evaluation of the South African Surveillance System.,True,False,low
+0.2362,2025,40223041,Interplay of Spontaneous Reporting and Longitudinal Healthcare Databases for Signal Management: Position Statement from the Real-World Evidence and Big Data Special Interest Group of the International Society of Pharmacovigilance.,True,False,low
+0.1580,2025,40088342,Narrative Search Engine for Case Series Assessment Supported by Artificial Intelligence Query Suggestions.,True,True,low
+0.7415,2025,40075033,"Navigating Diverging Perspectives: Reasoning, Evidence, and Decision-Making in Drug Safety.",True,False,high
+0.0941,2025,39661234,Performance and Reproducibility of Large Language Models in Named Entity Recognition: Considerations for the Use in Controlled Environments.,True,True,low
+0.7159,2024,38713347,The REporting of A Disproportionality Analysis for DrUg Safety Signal Detection Using Individual Case Safety Reports in PharmacoVigilance (READUS-PV): Explanation and Elaboration.,True,False,high
+0.6970,2024,38713346,The Reporting of a Disproportionality Analysis for Drug Safety Signal Detection Using Individual Case Safety Reports in PharmacoVigilance (READUS-PV): Development and Statement.,True,False,high
+0.2473,2024,38492173,The Role of Mitochondria in Statin-Induced Myopathy.,True,False,low
+0.6933,2023,37902937,Long-Term Real-World Post-approval Safety Data of Multiple Biosimilars from One Marketing-Authorization Holder After More than 18 Years Since Their First Biosimilar Launch.,True,False,high
+0.6697,2023,37340238,Use of Electronic Health Record Data for Drug Safety Signal Identification: A Scoping Review.,True,False,high
+0.2402,2023,37328600,Serially Combining Epidemiological Designs Does Not Improve Overall Signal Detection in Vaccine Safety Surveillance.,True,False,low
+0.2103,2023,37043168,Validation of an ICD-9-Based Algorithm to Identify Stillbirth Episodes from Medicaid Claims Data.,True,False,low
+0.2464,2022,35579806,"Artificial Intelligence in Pharmacovigilance: An Introduction to Terms, Concepts, Applications, and Limitations.",True,False,low
+0.7065,2022,35113347,Sources of Evidence Triggering and Supporting Safety-Related Labeling Changes: A 10-Year Longitudinal Assessment of 22 New Molecular Entities Approved in 2008 by the US Food and Drug Administration.,True,False,high
+0.6732,2021,33837924,The Use of Subgroup Disproportionality Analyses to Explore the Sensitivity of a Global Database of Individual Case Safety Reports to Known Pharmacogenomic Risk Variants Common in Japan.,True,False,high
+0.6919,2021,33606201,Assessing the Impact on Health of Pharmacovigilance Activities: Example of Four Safety Signals.,True,False,high
+0.2216,2020,32399868,Pathophysiology of Drug-Induced Hypomagnesaemia.,True,False,low
+0.2464,2020,32297160,Erice Call for Change: Utilising Patient Experiences to Enhance the Quality and Safety of Healthcare.,True,False,low
+0.2338,2020,32242310,"Safety of Eosinophil-Depleting Therapy for Severe, Eosinophilic Asthma: Focus on Benralizumab.",True,False,low
+0.6851,2019,31302895,Multimodal Analysis of FDA Drug Safety Communications: Lessons from Zolpidem.,True,False,high
+0.2252,2019,31111340,Evaluation of Use of Technologies to Facilitate Medical Chart Review.,True,False,low
+0.6869,2019,30725337,Use of a Patient-Friendly Terms List in the Adverse Drug Reaction Report Form: A Database Study.,True,False,high
+0.2256,2019,30649748,Safety and Tolerability of c-MET Inhibitors in Cancer.,True,False,low
+0.2222,2018,29560597,Central Demyelinating Diseases after Vaccination Against Hepatitis B Virus: A Disproportionality Analysis within the VAERS Database.,True,False,low
+0.6821,2018,29520645,EudraVigilance Medicines Safety Database: Publicly Accessible Data for Research and Public Health Protection.,True,False,high
+0.2365,2018,29230691,Beta-Blocker Use in Pregnancy and Risk of Specific Congenital Anomalies: A European Case-Malformed Control Study.,True,False,low
+0.7050,2017,28815462,A New Erice Report Considering the Safety of Medicines in the 21st Century.,True,False,high
+0.6858,2017,28766108,A Pharmacoepidemiology Database System for Monitoring Risk Due to the Use of Medicines by New Zealand Primary Care Patients.,True,False,high
+0.1235,2017,28744844,Suspected Adverse Effects After Human Papillomavirus Vaccination: A Temporal Relationship Between Vaccine Administration and the Appearance of Symptoms in Japan.,True,True,low
+0.6952,2017,28735357,Promoting and Protecting Public Health: How the European Union Pharmacovigilance System Works.,True,False,high
+0.7055,2017,28653291,Patients' Perspectives on Adverse Drug Reaction Reporting in a Developing Country: A Case Study from Ghana.,True,False,high
+0.2178,2017,28321782,Targeting Interleukin-5 or Interleukin-5Rα: Safety Considerations.,True,False,low
+0.7270,2017,28299611,Summarising the Evidence for Drug Safety: A Methodological Discussion of Different Meta-Analysis Approaches.,True,False,high
+0.2479,2017,28074424,Signal Detection Based on Time to Onset Algorithm in Spontaneous Reporting System of China.,True,False,low
+0.6864,2017,28005253,Diverging Conclusions from the Same Meta-Analysis in Drug Safety: Source of Data (Primary Versus Secondary) Takes a Toll.,True,False,high
+0.2528,2017,27995520,Effect of Medications for Gastric Acid-Related Symptoms on Total Motile Sperm Count and Concentration: A Case-Control Study in Men of Subfertile Couples from the Netherlands.,True,False,low
+0.2173,2017,27995519,Hepatic Cyst Infection During Use of the Somatostatin Analog Lanreotide in Autosomal Dominant Polycystic Kidney Disease: An Interim Analysis of the Randomized Open-Label Multicenter DIPAK-1 Study.,True,False,low
+0.2533,2017,27988883,"Surveillance of Adverse Events After Seasonal Influenza Vaccination in Pregnant Women and Their Infants in the Vaccine Adverse Event Reporting System, July 2010-May 2016.",True,False,low
+0.6929,2016,27098248,The Patient's Voice in Pharmacovigilance: Pragmatic Approaches to Building a Patient-Centric Drug Safety Organization.,True,False,high
+0.2247,2016,26968541,Universal Correction for QT/RR Hysteresis.,True,False,low
+0.6793,2016,26940903,Medication Errors: New EU Good Practice Guide on Risk Minimisation and Error Prevention.,True,False,high
+0.7120,2016,26692393,Pharmacovigilance is... Vigilance.,True,False,high
+0.2257,2016,26658991,Risk of Inflammatory Bowel Disease with Oral Contraceptives and Menopausal Hormone Therapy: Current Evidence and Future Directions.,True,False,low
+0.2417,2015,26251259,"Modelling Hospitalisation Ratios for Febrile Convulsions and Severe Varicella Under Combined Measles, Mumps, Rubella, and Varicella (MMRV-Priorix-Tetra™) Compared to Separate MMR + V Vaccination.",True,False,low
+0.2340,2015,25832756,"Chimeric fusion proteins used for therapy: indications, mechanisms, and safety.",True,False,low
+0.7039,2015,25829215,The monitoring medicines project: a multinational pharmacovigilance and public health project.,True,False,high
+0.2332,2015,25820287,Organ-on-a-chip: development and clinical prospects toward toxicity assessment with an emphasis on bone marrow.,True,False,low
+0.2447,2015,25475539,"Bacillus Calmette-Guérin (BCG) vaccine adverse events in Victoria, Australia: analysis of reports to an enhanced passive surveillance system.",True,False,low
