@@ -124,14 +124,16 @@ def _save_top_or_bottom_articles(articles: list, scores, n: int, top: bool, path
 
 def _save_outlier_articles(articles: list, scores, outliers_z, path: Path) -> None:
     outliers_iqr = detect_outliers_iqr(scores)
+    overall_mean = scores.mean()
     with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["score", "year", "pmid", "title", "outlier_zscore", "outlier_iqr"])
+        writer.writerow(["score", "year", "pmid", "title", "outlier_zscore", "outlier_iqr", "direction"])
         for i in range(len(articles)):
             if outliers_z[i] or outliers_iqr[i]:
+                direction = "high" if scores[i] > overall_mean else "low"
                 writer.writerow([
                     f"{scores[i]:.4f}", articles[i].year, articles[i].pmid, articles[i].title,
-                    outliers_z[i], outliers_iqr[i],
+                    outliers_z[i], outliers_iqr[i], direction,
                 ])
 
 
@@ -182,6 +184,14 @@ if __name__ == "__main__":
 
     n_outliers = results["outliers"].sum()
     print(f"\nOutliers found (z-score): {n_outliers} out of {len(results['scores'])}")
+
+    # split the flagged outliers by direction: are they unusually high or unusually low alignment?
+    overall_mean = scores.mean()
+    outlier_indices = np.where(results["outliers"])[0]
+    n_low = sum(1 for i in outlier_indices if scores[i] < overall_mean)
+    n_high = sum(1 for i in outlier_indices if scores[i] > overall_mean)
+    print(f"Low-alignment outliers: {n_low}")
+    print(f"High-alignment outliers: {n_high}")
 
     # cross-check with the IQR method (which doesn't assume normality) 
     outliers_iqr = detect_outliers_iqr(scores)
