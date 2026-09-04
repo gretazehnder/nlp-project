@@ -12,6 +12,43 @@ with the journal's stated Aims & Scope, and how has this alignment evolved
 between 2015 and 2025?
 
 
+
+## Repository Structure
+
+```text
+nlp-project/
+├── src/ # core modules 
+│ ├── data_loader.py # load + validate CSV, filtering functions
+│ ├── preprocessing.py # text whitespace normalization
+│ ├── eda.py # exploratory data analysis
+│ ├── model_interface.py # SentenceTransformer + sentence-based chunking
+│ ├── evaluation.py # cosine similarity, outlier detection 
+│ ├── pipeline.py # end-to-end orchestration + result exports
+│ ├── visualization.py # yearly trend figures
+│ ├── bert_comparison.py # naive BERT vs SentenceTransformer ablation
+│ └── topic_analysis.py # BERTopic clustering + temporal analysis
+├── scripts/
+│ ├── fetch_articles.py # downloads the raw corpus from PubMed
+│ └── run_pipeline.py # CLI wrapper around pipeline.py
+├── tests/ #automated tests
+│ ├── test_evaluation.py
+│ ├── test_preprocessing.py
+│ └── test_model_interface.py
+├── notebooks/
+│ └── demo_analysis.ipynb # demonstration notebook 
+├── data/
+│ ├── raw/ # articles.csv (not versioned), aims_scope.txt
+│ └── results/
+│ ├── tables/ # CSV outputs
+│ └── figures/ # PNG figures
+├── report.pdf 
+├── slides.pdf
+├── requirements.txt
+├── LICENSE
+└── README.md
+
+```
+
 ## Setup
 
 Create and activate a virtual environment, then install the required
