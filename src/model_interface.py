@@ -51,10 +51,6 @@ class EmbeddingModel:
 
         chunk_embeddings = self._model.encode(all_chunks, show_progress_bar=True)  # progress bar useful for large batches 
 
-        # normalize each chunk embedding to unit length before averaging, so the weighted average is driven only by our explicit weights (token count),
-        # not by incidental differences in vector magnitude between chunks (SentenceTransformer's raw output is not guaranteed to be unit-norm)
-        norms = np.linalg.norm(chunk_embeddings, axis=1, keepdims=True)
-        chunk_embeddings = chunk_embeddings / norms
 
         # recombine the chunks belonging to the same original text into a single embedding per text (through weighted average)
         embedding_size = chunk_embeddings.shape[1]
