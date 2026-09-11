@@ -120,7 +120,7 @@ pytest tests/
   with AI and machine-learning methods, becomes more prominent in the later
   years of the corpus and contains two of the three least-aligned articles.
   Its representative terms include `model`, `learning`, `machine`,
-  `pharmacovigilance`, and `performance`, showing that lower similarity does
+  `pharmacovigilance`, and `drug`, showing that lower similarity does
   not necessarily imply a lack of connection with the journal's field.
 
 - A naive-BERT baseline produces substantially higher and more concentrated
